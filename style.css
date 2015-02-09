@@ -15,13 +15,13 @@ body, html, main {
   background-image: url("a.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url("b.jpg");
+  background-image: url("bg.jpg");
 }
 .cd-fixed-bg.cd-bg-3 {
   background-image: url("c.jpg");
 }
 .cd-fixed-bg.cd-bg-4 {
-  background-image: url("bg.png");
+  background-image: url("b.png");
 }
  
 .cd-scrolling-bg {
@@ -31,13 +31,13 @@ body, html, main {
 /************************************************/
 
 
-html { 
+/*html { 
   background: url(bg.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 body {
 	margin: 0;
