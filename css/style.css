@@ -74,6 +74,25 @@ body, h1 {
 	background-color: #369;
 }
 
+
+
+#demo-left {
+	width: 50%;
+	height: 100px;
+	background-color: #00FF00;
+	float: left;
+}
+
+#demo-right {
+	width: 50%;
+	height: 1000px;
+	background-image: url("../images/nexus5skin.png");
+	/*background-color: #0000FF;*/
+	float: right;
+}
+
+/***********************/
+
 #d1 {
 	width: relative;
 	height: 30px;
