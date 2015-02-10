@@ -4,7 +4,7 @@
 .navbar-nav > li > a {
 	padding-right: 0;
 	padding-left: 0;
-	font-size: 17px;
+	font-size: 17px;	/*Link font size*/
 	color: #fff;
 	color: rgba(255,255,255,.75);
 	border-bottom: 2px solid transparent;

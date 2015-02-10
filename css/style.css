@@ -2,37 +2,66 @@ body, html, main {
 	/* important */
 	height: 100%;
 }
- 
+
 .cd-fixed-bg {
-	min-height: 100%;
+	min-height: 650px;
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
+	min-width:900px;
+	margin: 0;
 }
- 
+
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url("../images/a.jpg");
+	background-image: url("../images/a.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url("../images/bg.png");
+	background-image: url("../images/bg.png");
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("../images/c.jpg");
+	background-image: url("../images/c.jpg");
 }
 .cd-fixed-bg.cd-bg-4 {
-  background-image: url("../images/b.jpg");
-  min-height: 50%;
+	background-image: url("../images/b.jpg");
+	min-height: 30%;
 }
- 
+
 .cd-scrolling-bg {
-	min-height: 25%;
+	min-height: 30%;
 	padding: 0;
 	margin: 0;
 }
 
+.cd-scrolling-bg.cd-color-1 {
+	background-color: #FF0000;
+}
+
 .cd-scrolling-bg.cd-color-2 {
-	background-color: #EAEFFF;
+	background-color: #00FF00;
+}
+
+.cd-scrolling-bg.cd-color-3 {
+	background-color: #0000FF;
+
+}
+
+.cd-container {
+	border: 1px solid;
+	border-color: #FF00FF;
+	margin: 0px;
+}
+
+#poop {
+	height: 50px;
+	background-color: #00FF00;
+	width: 50px;
+	/*font-size: 17px;*/
+	font-family: 'Raleway'
+	sans-serif;
+	font-size: 26px;
+	color:#98a2c3;
+	/*margin:15px 0 0 0;*/
 }
 
 /************************************************/
@@ -46,48 +75,29 @@ body, html, main {
   background-size: cover;
 }*/
 
-body, h1 {
+body {
 	margin: 0;
 }
 
-#navcontainer ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	text-align: center;
-	border: 1px solid;
-}
-
-#navcontainer ul li {
-	display: inline;
-}
-
-#navcontainer ul li a {
-	text-decoration: none;
-	padding: 0em 1em;
-	color: #fff;
-	background-color: #036;
-}
-
-#navcontainer ul li a:hover {
-	color: #fff;
-	background-color: #369;
+h1 {
+	margin: 0px;
+	padding: 0px;
 }
 
 
 
 #demo-left {
 	width: 50%;
-	height: 100px;
-	background-color: #00FF00;
+	height: 250px;
+	border: 2px solid;
+	border-radius: 25px;
 	float: left;
 }
 
 #demo-right {
 	width: 50%;
-	height: 1000px;
-	background-image: url("../images/nexus5skin.png");
-	/*background-color: #0000FF;*/
+	height: 650px;
+	background: url("../images/443x650n5.png") no-repeat center;
 	float: right;
 }
 
