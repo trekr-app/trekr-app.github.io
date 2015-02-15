@@ -1,4 +1,3 @@
-
 /********MAIN BODY LAYOUT********/
 body, html, main {
 	/* important */
@@ -62,6 +61,14 @@ body, html, main {
 	margin: 0px;
 }
 
+
+/********ANCHORS********/
+a.anchor{
+	display: block;
+	position: relative;
+	top: -58px;
+	/*visibility: hidden;*/
+}
 
 
 /********TESTING********/
