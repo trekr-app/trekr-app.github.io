@@ -19,7 +19,6 @@ body, html, main {
 .fixed.bg-1 {
 	background-image: url("../images/poly.jpg");
 	height: 100%;
-	/*padding-top: 30%;*/
 }
 .fixed.demo { /*demo class named the same as demo id */
 	background-image: url("../images/a.jpg");
@@ -49,12 +48,9 @@ body, html, main {
 
 .scrolling.downloads {
 	background-color: #F0F0F0;
+	text-align: center;
+	min-width: 900px;
 	/*min-height: 415px;*/
-}
-
-.scrolling.team{
-	background-color: #F0F0F0;
-	min-width: 100%;
 }
 
 .scrolling.color-4 {
@@ -157,76 +153,88 @@ a.anchor{
 	width: 220px;
 	height: 220px;
 	display: block;
-	border: 1px solid;
-	border-color: #4F70F0;
-	margin-top: 0px;
 	margin-left: 20px;
+	border-radius: 70px;
+	/*opacity: 0.65;*/
+	-webkit-box-shadow: 0px 18px 14px -6px rgba(50, 50, 50, 0.28);
+	-moz-box-shadow:    0px 18px 14px -6px rgba(50, 50, 50, 0.28);
+	box-shadow:         0px 18px 14px -6px rgba(50, 50, 50, 0.28);
+	display:inline-block;
 }
 
 .download.apk{
-	float: left;
-	margin-left: 20%;
-	/*margin: auto;*/
 	background: url("../images/icons/apk128.png") no-repeat center;
-	background-color: #4F70F0;
-	border-radius: 110px;
-	/*background-size: cover;*/
+	background-color: rgba(0,0,255,0.50);
+	
 }
 
 .download.zip {
-	float: left;
-	/*margin: auto;*/
 	background: url("../images/icons/zip128.png") no-repeat center;
-	background-color: #4F70F0;
-	border-radius: 70px;
-	/*background-size: cover;*/
+	background-color: rgba(0,0,255,0.25);
 }
 
 .download.tar {
-	float: left;
-	margin-right: 20%;
-	/*margin: auto;*/
 	background: url("../images/icons/tar128.png") no-repeat center;
-	background-color: #4F70F0;
-	border-radius: 50px;
-	/*background-size: cover;*/
+	background-color: rgba(0,0,255,0.25);
 }
 
 /********TEAM********/
 
 .team {
-	width: 300px;
-	height: 300px;
+	width: 25%;
+	height: 0;
+	position: relative;
 	display: block;
 	/*border: 1px solid;*/
 	margin-top: 0px;
+	padding-bottom: 25%; /*** MUST KEEP! ***/
+	/*display:inline-block;*/
 }
 
 .team.j {
 	float: left;
 	background: url("../images/photo.png") no-repeat center;
-	/*background-size: cover;*/
+	background-size: cover;
+}
+
+.team.j:hover {
+	background: url("../images/photo.png") no-repeat center;
+	opacity: 0.35;
+	background-size: cover;
 }
 
 .team.d {
 	float: left;
 	background: url("../images/photo.png") no-repeat center;
-	/*background-size: cover;*/
+	background-size: cover;
+}
+
+.team.d:hover {
+	background: url("../images/photo.png") no-repeat center;
+	opacity: 0.35;
+	background-size: cover;
 }
 
 .team.e {
 	float: left;
 	background: url("../images/photo.png") no-repeat center;
-	/*background-size: cover;*/
+	background-size: cover;
+}
+
+.team.e:hover {
+	background: url("../images/photo.png") no-repeat center;
+	opacity: 0.35;
+	background-size: cover;
 }
 
 .team.r {
 	float: left;
 	background: url("../images/photo.png") no-repeat center;
-	/*background-size: cover;*/
+	background-size: cover;
 }
 
-
-
-
-
+.team.r:hover {
+	background: url("../images/photo.png") no-repeat center;
+	opacity: 0.35;
+	background-size: cover;
+}
