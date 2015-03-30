@@ -15,7 +15,8 @@
 	border-bottom-color: rgba(255,255,255,.35); /*Transparency of highlight bar under links in nav*/
 }
 .navbar .navbar-brand {
-	color:#fff; padding-left:40px;
+	color:#fff; padding-left:50px;
+	background: url("../images/logo/icon50white.png") no-repeat left;
 }
 .navbar {
 	padding-top:25px;
@@ -53,11 +54,16 @@
 	text-shadow: 1px 1px 1px rgba(26, 68, 9, 0.8);
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
+.navbar-brand.navbar-animation-ds {
+	background: url("../images/logo/icon50whiteds.png") no-repeat left;
+}
+
 .subpage .navbar.navbar-animation {
 	border-bottom: 1px solid #00561B; /*Nav bottom border color*/
 }
 
-.main-content article{width: 100%; clear:both; margin: 20px 0 40px 0;}
+/*.main-content article{width: 100%; clear:both; margin: 20px 0 40px 0;}
 .main-content h2.article-title{font-size:24px; margin-bottom:6px; font-family: 'Open Sans', sans-serif;}
 .article-subheader{margin:18px 0; font-size:13px; color:#999;}
 .article-subheader span.separator{padding:0 5px;}
@@ -76,12 +82,12 @@
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-}
+}*/
 
-.subpage-header{width:100%; min-height:200px; padding:90px 0 0; background: url(../images/bcgr3.jpg) no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0); }
+/*.subpage-header{width:100%; min-height:200px; padding:90px 0 0; background: url(../images/bcgr3.jpg) no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0); }
 .subpage-header h1{font-family: 'Raleway', sans-serif; font-size: 26px; color:#98a2c3; margin:15px 0 0 0;}
 .subpage-header ul.breadcrumb{background: transparent; margin:0; font-size:15px; padding-top:3px;}
 .subpage-header ul.breadcrumb li{color:#fff;}
-.subpage-header .white-band{background-color: rgba(255,255,255,.2); padding:20px 0 20px;}
+.subpage-header .white-band{background-color: rgba(255,255,255,.2); padding:20px 0 20px;}*/
 
 
