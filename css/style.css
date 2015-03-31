@@ -45,28 +45,18 @@ body, html, main {
 
 .scrolling.description {
 	background-color: #F0F0F0;
+	clear: both;
 }
 
-.scrolling.downloads {
-	background-color: #F0F0F0;
-	text-align: center;
+.scrolling.documents {
+	background-color: #F00;
 	min-width: 900px;
-	/*min-height: 415px;*/
 }
 
 .scrolling.color-4 {
 	background-color: #F0F0F0;
-}
-
-.cd-container {
-	/*border: 1px solid;*/
-	/*border-color: #FF00FF;*/
-	margin: 0px;
-	margin-bottom: -10px; /*******HACKY CRAP I DON'T LIKE********/
-	/* When removing the borders,
-	the weird whitespace margin
-	came back so I had to add the 
-	-10px margin-bottom fix..... */
+	min-height: 225px;
+	clear: both;
 }
 
 .scrolling.bottom {
@@ -87,7 +77,6 @@ body, html, main {
 	font-size: 12px;
 	text-align: center;
 	padding-top: 20px;
-	/*border: 1px solid #FFF;*/
 }
 
 /********ANCHORS********/
@@ -95,7 +84,6 @@ a.anchor{
 	display: block;
 	position: relative;
 	top: -57px;
-	/*visibility: hidden;*/
 }
 
 /********TESTING********/
@@ -115,23 +103,18 @@ a.anchor{
 
 #top-third {
 	height: 15%;
-	/*border: 1px solid;
-	border-color: #FF00FF;*/
 }
 
 /********WELCOME********/
 
 #middle-third {
 	height: 70%;
-/*	border: 1px solid;
-	border-color: #FF00FF;*/
-	/*background: url("../images/app_icons/xxhdpi.png") no-repeat 360px 0px;*/
 }
 
 #middle-third h1 {
 	font-size: 60px;
 	text-align: center;
-	/*margin-top: 160px;*/
+	margin-top: 120px;
 	margin-bottom: 20px;
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
@@ -140,7 +123,6 @@ a.anchor{
 #middle-third p {
 	font-size: 25px;
 	text-align: center;
-	/*margin-top: 160px;*/
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
@@ -149,8 +131,6 @@ a.anchor{
 
 #bottom-third {
 	height: 15%;
-	/*border: 1px solid;
-	border-color: #00FF00;*/
 	background: url("../images/arrow.png") no-repeat center;
 	display: block;
 }
@@ -161,8 +141,6 @@ a.anchor{
 	width: 50%;
 	height: 650px;
 	padding-top: 130px;
-	/*border: 2px solid;*/
-	/*border-radius: 25px;*/
 	float: left;
 }
 
@@ -176,8 +154,6 @@ a.anchor{
 #demo {
 	height: 470px;
 	width: 266px;
-/*	border: 1px solid;
-	border-color: #0000FF;*/
 	margin-top: 76px;
 	margin: 76 auto;
 	background: url("../images/nexus/lollipop.gif") no-repeat center;
@@ -252,11 +228,16 @@ a.anchor{
 
 /********TEAM********/
 
+.teamwrap {
+	min-width: 900px;
+	height: 225px;
+}
+
 .team {
 	width: 25%;
 	height: 0;
 	position: relative;
-	display: block;
+	display: inline-block;
 	margin-top: 0px;
 	-webkit-transition: background .5s ease;
 	-moz-transition: background .5s ease;
