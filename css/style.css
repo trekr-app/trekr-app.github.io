@@ -65,7 +65,7 @@ body, html, main {
 }
 
 .scrolling.grass {
-	background: url("../images/grass1.png") bottom;
+	background: url("../images/grass.png") bottom;
 	min-height: 11px;
 }
 
