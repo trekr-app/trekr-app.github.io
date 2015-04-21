@@ -247,7 +247,17 @@ a.anchor{
 	padding: 40px 40px 25% 40px;
 }
 
-.team h3, .team p {
+.team h3 {
+	webkit-transition: color .5s ease;
+	-moz-transition: color .5s ease;
+	-ms-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease;
+	color: transparent;
+	margin-top: 87%;
+}
+
+.team p {
 	webkit-transition: color .5s ease;
 	-moz-transition: color .5s ease;
 	-ms-transition: color .5s ease;
@@ -287,45 +297,45 @@ a.anchor{
 
 .team.j {
 	float: left;
-	background: url("../images/team/photo.png") no-repeat center;
+	background: url("../images/team/jharris.jpg") no-repeat center;
 	background-size: cover;
 }
 
 .team.j:hover {
-	background: url("../images/team/faint.png") no-repeat center;
+	background: url("../images/team/jharris_faint.jpg") no-repeat center;
 	background-size: cover;
 }
 
 .team.r {
 	float: left;
-	background: url("../images/team/photo.png") no-repeat center;
+	background: url("../images/team/rthomas.jpg") no-repeat center;
 	background-size: cover;
 }
 
 .team.r:hover {
-	background: url("../images/team/faint.png") no-repeat center;
+	background: url("../images/team/rthomas_faint.jpg") no-repeat center;
 	background-size: cover;
 }
 
 .team.e {
 	float: left;
-	background: url("../images/team/photo.png") no-repeat center;
+	background: url("../images/team/emckenzie.jpg") no-repeat center;
 	background-size: cover;
 }
 
 .team.e:hover {
-	background: url("../images/team/faint.png") no-repeat center;
+	background: url("../images/team/emckenzie_faint.jpg") no-repeat center;
 	background-size: cover;
 }
 
 .team.d {
 	float: left;
-	background: url("../images/team/photo.png") no-repeat center;
+	background: url("../images/team/dkidd.jpg") no-repeat center;
 	background-size: cover;
 }
 
 .team.d:hover {
-	background: url("../images/team/faint.png") no-repeat center;
+	background: url("../images/team/dkidd_faint.jpg") no-repeat center;
 	background-size: cover;
 }
 
