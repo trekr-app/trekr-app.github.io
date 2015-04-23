@@ -207,11 +207,11 @@ a.anchor{
 
 /********DETAILS********/
 
-#details {
+#desc {
 	padding: 40px 15% 40px 15%;
 }
 
-#details p {
+#desc p {
 	font-size: 22px;
 	text-align: center;
 	/*padding-left: 15%;*/
