@@ -30,10 +30,16 @@ $(document).ready(function() {
 	$('.demo').css('background-image', 'url(images/bg/' + demoImages[Math.floor(Math.random() * demoImages.length)] + ')');
 });
 
+var bg2Images = ['run5.jpg', 'run6.jpg', 'run7.jpg', 'run8.jpg', 'run9.jpg', 'run10.jpg',];
+$(document).ready(function() {
+	$('.bg-2').css('background-image', 'url(images/bg/' + bg2Images[Math.floor(Math.random() * bg2Images.length)] + ')');
+});
+
 var bg3Images = ['mb1.jpg', 'mb2.jpg', 'mb3.jpg', 'mb4.jpg', 'mb5.jpg'];
 $(document).ready(function() {
 	$('.bg-3').css('background-image', 'url(images/bg/' + bg3Images[Math.floor(Math.random() * bg3Images.length)] + ')');
 });
+
 
 // jQuery(document).ready(function() {
 	//animation when the document is ready
